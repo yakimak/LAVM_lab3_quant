@@ -1,0 +1,42 @@
+Initial Qubit States:
+q1: 1|0⟩ + 0|1⟩
+q2: 0|0⟩ + 1|1⟩
+q3: 0.3873-0.1291i|0⟩ + 0.9037+0.1291i|1⟩
+
+X Gate Results:
+q1 after X: 0|0⟩ + 1|1⟩
+q2 after X: 1|0⟩ + 0|1⟩
+q3 after X: 0.9037+0.1291i|0⟩ + 0.3873-0.1291i|1⟩
+
+Y Gate Results:
+q1 after Y: 0|0⟩ + i|1⟩
+q2 after Y: -i|0⟩ + 0|1⟩
+q3 after Y: 0.1291-0.9037i|0⟩ + 0.1291+0.3873i|1⟩
+
+Z Gate Results:
+q1 after Z: 1|0⟩ + 0|1⟩
+q2 after Z: 0|0⟩ + -1|1⟩
+q3 after Z: 0.3873-0.1291i|0⟩ + -0.9037-0.1291i|1⟩
+
+H Gate Results:
+q1 after H: 0.7071|0⟩ + 0.7071|1⟩
+q2 after H: 0.7071|0⟩ + -0.7071|1⟩
+q3 after H: 0.9129|0⟩ + -0.3651-0.1826i|1⟩
+
+CNOT Gate Results:
+q1 (control) and q2 (target):
+  control after CNOT: 1|0⟩ + 0|1⟩
+  target after CNOT: 0|0⟩ + 1|1⟩
+
+q2 (control) and q1 (target):
+  control after CNOT: 0|0⟩ + 1|1⟩
+  target after CNOT: 0|0⟩ + 1|1⟩
+
+q1 (control) and q3 (target):
+  control after CNOT: 1|0⟩ + 0|1⟩
+  target after CNOT: 0.3873-0.1291i|0⟩ + 0.9037+0.1291i|1⟩
+
+q2 (control) and q3 (target):
+  control after CNOT: 0|0⟩ + 1|1⟩
+  target after CNOT: 0.9037+0.1291i|0⟩ + 0.3873-0.1291i|1⟩
+
